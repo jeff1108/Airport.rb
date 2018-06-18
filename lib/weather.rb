@@ -5,7 +5,7 @@ class Weather
 
   def random_weather
     index = Random.rand(4)
-    WEATHER[index]
+    WEATHER[index]  #:stormy or :sunny
   end
 
   def stormy?
